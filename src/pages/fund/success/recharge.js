@@ -1,6 +1,6 @@
 /*
  * @Date: 2020-07-24 17:19:59
- * @LastEditTime: 2020-07-24 17:47:01
+ * @LastEditTime: 2020-08-17 16:25:15
  */
 
 import React, { useState, useEffect } from 'react';
@@ -34,15 +34,15 @@ const RechargeSuccess = (props) => {
           <img src={success} />
         </div>
         <p className="fund-recharge_content-p2">
-          恭喜您充值成功，现在您可以去星权益购买商品啦
+          恭喜您充值申请成功! 请及时汇款并上传银行回单
         </p>
         <div style={{ textAlign: 'center' }}>
           <Button
             type="primary"
             ghost
-            onClick={() => history.push('/admin/shop')}
+            onClick={() => history.push('/admin/fund/cashFlow')}
           >
-            去购买
+            查看资金流水
           </Button>
         </div>
       </div>
