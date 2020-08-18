@@ -2,7 +2,7 @@
  * @Author: Dad
  * @Date: 2020-07-13 19:32:18
  * @LastEditors: Dad
- * @LastEditTime: 2020-07-31 16:45:16
+ * @LastEditTime: 2020-08-18 15:00:57
  */
 import React, { useState, useEffect } from 'react';
 import { connect } from 'dva';
@@ -180,7 +180,7 @@ const account = ({ dispatch, list, total, loading }) => {
               ),
             }}
           />
-          {_.isEmpty(list) ? null : (
+          {/* {_.isEmpty(list) ? null : (
             <div className="cash-flow_pagination">
               <Pagination
                 disabled={loading}
@@ -193,7 +193,7 @@ const account = ({ dispatch, list, total, loading }) => {
                 共 {total} 条 ,每页 {pageSize} 条
               </span>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </>
